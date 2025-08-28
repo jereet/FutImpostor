@@ -11,7 +11,7 @@ import androidx.navigation.NavHostController
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LobbyScreen(navController: NavHostController) {
-    val players = listOf("Jugador 1", "Jugador 2", "Jugador 3")
+    val players = listOf("Jugador 1", "Jugador 2", "Jugador 3", "Jugador 4")
 
     Scaffold(
         topBar = { TopAppBar(title = { Text("Sala de Espera") }) }
